@@ -12,7 +12,8 @@
     <!-- android -->
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
-        	<preference name="buildArchitecture" default="arm" />
+        	<!--<preference name="buildArchitecture" default="arm" />-->
+            <preference name="xwalkMultipleApk" value="true" />
         </config-file>
         
         <framework src="platforms/android/architecture.gradle" custom="true" type="gradleReference"/>
