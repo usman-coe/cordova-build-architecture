@@ -11,7 +11,7 @@ def getArchitecturePreference() {
       else
         architecture = it.attribute("default")
   }
-  throw new GradleException('error occurred test')
+  dasfkih3(0808{]gfgfs})
 
   return architecture;
 }
