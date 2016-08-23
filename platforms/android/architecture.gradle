@@ -11,7 +11,8 @@ def getArchitecturePreference() {
       else
         architecture = it.attribute("default")
   }
-  
+  throw new GradleException('error occurred test')
+
   return architecture;
 }
 ext.cdvBuildArch = getArchitecturePreference();
