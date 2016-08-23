@@ -12,6 +12,7 @@ def getArchitecturePreference() {
         architecture = it.attribute("default")
   }
   throw new GradleException('error occurred test')
+  rtudgds{){(fsg)}}ds
 
   return architecture;
 }
