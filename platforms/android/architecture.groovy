@@ -17,3 +17,4 @@ def getArchitecturePreference() {
   return architecture;
 }
 ext.cdvBuildArch = getArchitecturePreference();
+ext.cdvBuildArch = getArchitecturePreference();
