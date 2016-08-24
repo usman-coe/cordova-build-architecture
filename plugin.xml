@@ -18,7 +18,7 @@
     <!-- android -->
     <platform name="android">
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
-        	<preference name="xwalkMultipleApk" value="true" /> 
+        	<preference name="buildArchitecture" value="x86" />
         </config-file>
         <!--<source-file src="platforms/android/architecture.java" target-dir="src/org/apache/cordova/cordova-build-architecture" />-->
         <!--<framework src="platforms/android/architecture.gradle" custom="true" type="gradleReference"/>-->
